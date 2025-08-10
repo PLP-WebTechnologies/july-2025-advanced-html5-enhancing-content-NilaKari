@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Africa Tours</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Explore Africa Tours</h1>
+    <p>Based in Nairobi, we specialize in unforgettable travel experiences across Africa — serving both local and international tourists.</p>
+  </header>
+
+  <!-- SERVICES LIST -->
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Guided city tours in Nairobi and other African capitals</li>
+      <li>Wildlife safaris in top national parks</li>
+      <li>Adventure travel including hiking, desert expeditions, and beach getaways</li>
+      <li>Cultural experiences with local communities</li>
+      <li>Custom travel packages for groups and individuals</li>
+    </ul>
+  </section>
+
+  <!-- TOUR PACKAGES TABLE -->
+  <section>
+    <h2>Popular African Destinations</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Country</th>
+          <th>Main Attraction</th>
+          <th>Price (USD)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kenya</td>
+          <td>Maasai Mara Safari</td>
+          <td>1,200</td>
+        </tr>
+        <tr>
+          <td>Tanzania</td>
+          <td>Mount Kilimanjaro Climb</td>
+          <td>1,500</td>
+        </tr>
+        <tr>
+          <td>South Africa</td>
+          <td>Cape Town & Wine Tours</td>
+          <td>1,400</td>
+        </tr>
+        <tr>
+          <td>Egypt</td>
+          <td>Pyramids of Giza & Nile Cruise</td>
+          <td>1,800</td>
+        </tr>
+        <tr>
+          <td>Morocco</td>
+          <td>Marrakech & Sahara Desert</td>
+          <td>1,600</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- MEDIA SECTION -->
+  <section>
+    <h2>Experience Africa</h2>
+    <h3>Gallery</h3>
+    <img src="safari.jpg" alt="Safari View" width="200">
+    <img src="desert.jpg" alt="Desert Adventure" width="300">
+
+    <h3>Promo Video</h3>
+    <video controls width="500">
+      <source src="safari video.mp4" type="video/mp4">
+      Your browser does not support video playback.
+    </video>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section>
+    <h2>Contact Us</h2>
+    <form action="#" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Your Details</legend>
+
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required minlength="3"><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required><br><br>
+
+        <label for="country-code">Country Code:</label>
+        <select id="country-code" name="country-code" required>
+          <option value="">Select Code</option>
+          <option value="+254">Kenya (+254)</option>
+          <option value="+255">Tanzania (+255)</option>
+          <option value="+27">South Africa (+27)</option>
+          <option value="+20">Egypt (+20)</option>
+          <option value="+212">Morocco (+212)</option>
+        </select><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="700 000 000" pattern="^[0-9\s\-]{7,15}$" required><br><br>
+
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Message</legend>
+        <label for="message">Questions or Comments:</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." rows="5" required></textarea>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>
